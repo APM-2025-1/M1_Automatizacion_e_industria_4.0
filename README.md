@@ -11,7 +11,7 @@
 
 <h2>Mep Mep Raideres</h2>
 
-<h5>Joan Sebastian Arcila <br>
+<h5>Joan Sebastian Arcila Cardozo<br>
     Juan Sebastian Daleman Martinez<br>
     Daniel Santiago Muñoz Bernal<br>
     Maria Alejandra Pérez Petro<br>
