@@ -37,7 +37,7 @@
 
 </details>
 
-# 1. Diagramas de instrumentación (identificación de sensores y actuadores)
+# 1. Diagramas de instrumentación.
 
 El sistema de automatización implementado en la planta cuenta con una instrumentación precisa que permite la supervisión y control de cada etapa del proceso. En los gabinetes eléctricos se han identificado sensores como sensores fotoeléctricos difusos (SICK WTB4-3P1361), utilizados para la detección de piezas en las bandas transportadoras, y sensores de temperatura y humedad para el monitoreo ambiental. Como actuadores se incluyen contactores, resistencias calefactoras, lámparas piloto, balizas acústicas y motores eléctricos controlados mediante relés y salidas digitales del PLC.
 
