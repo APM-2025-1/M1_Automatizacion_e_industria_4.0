@@ -29,15 +29,13 @@
     <summary>🗂️ Tabla de Contenido</summary>
 
 <!-- TOC -->
-- [](#)
-
-
-
-
+- [1. 📊🛂 Diagramas de instrumentación.](#1--diagramas-de-instrumentación)
+- [2. 🏗️🎛️ Arquitectura de control y comunicaciones utilizadas](#2-️️-arquitectura-de-control-y-comunicaciones-utilizadas)
+- [3. 👨🏻‍💻🏭 Tecnologías de Industria 4.0 y relación con la transformación digital](#3--tecnologías-de-industria-40-y-relación-con-la-transformación-digital)
 
 </details>
 
-# 1. Diagramas de instrumentación.
+# 1. 📊🛂 Diagramas de instrumentación.
 
 El sistema de automatización implementado en la planta cuenta con una instrumentación precisa que permite la supervisión y control de cada etapa del proceso. En los gabinetes eléctricos se han identificado sensores como sensores fotoeléctricos difusos (SICK WTB4-3P1361), utilizados para la detección de piezas en las bandas transportadoras, y sensores de temperatura y humedad para el monitoreo ambiental. Como actuadores se incluyen contactores, resistencias calefactoras, lámparas piloto, balizas acústicas y motores eléctricos controlados mediante relés y salidas digitales del PLC.
 
@@ -45,7 +43,7 @@ El sistema de automatización implementado en la planta cuenta con una instrumen
 
 Cada sección de la planta tiene su propio conjunto de dispositivos. Por ejemplo, los sensores fotoeléctricos están distribuidos a lo largo de la línea para garantizar la detección precisa de productos. Las señales de entrada provenientes de estos sensores son canalizadas a tarjetas de entradas digitales, mientras que las señales de salida hacia actuadores como balizas y lámparas son gestionadas por tarjetas de salidas digitales.
 
-# 2. Arquitectura de control y comunicaciones utilizadas
+# 2. 🏗️🎛️ Arquitectura de control y comunicaciones utilizadas
 
 La arquitectura de control del sistema ha sido diseñada siguiendo un enfoque jerárquico conforme a la pirámide de automatización industrial, y se estructura en tres niveles. En el nivel de campo se ubican los elementos encargados de la interacción directa con el proceso físico, como los sensores fotoeléctricos difusos SICK WTB4-3P1361, que permiten la detección de objetos en movimiento sobre las bandas transportadoras. También se encuentran en este nivel los motores eléctricos trifásicos SEW-EURODRIVE DRN, que se encargan de generar el movimiento mecánico de las líneas de transporte, así como diversos actuadores de señalización y bornas distribuidas para la correcta conexión, protección y canalización de señales tanto analógicas como digitales.
 
@@ -61,7 +59,7 @@ En cuanto a las comunicaciones industriales, el sistema utiliza una red mixta co
 
 Finalmente, el sistema integra diversos protocolos de comunicación para asegurar la compatibilidad y eficiencia operativa. Se utiliza Modbus RTU para la comunicación serial con dispositivos del nivel de campo, Ethernet/IP para la red principal entre dispositivos críticos como el PLC y la HMI, y protocolos propietarios de B&R como POWERLINK y Automation Runtime, que permiten una sincronización precisa, configuración automática de dispositivos y un alto nivel de integración en entornos de automatización industrial avanzados.
 
-# 3. Tecnologías de Industria 4.0 y relación con la transformación digital
+# 3. 👨🏻‍💻🏭 Tecnologías de Industria 4.0 y relación con la transformación digital
 El diseño propuesto integra diversas tecnologías de la Industria 4.0 que fortalecen la capacidad de digitalización y mejora continua del proceso:
 
 Gemelo Digital (Modelo Ciberfísico): La planta ha sido modelada virtualmente en un entorno CAD, lo que permite simular, validar y ajustar el comportamiento del sistema antes de su implementación física. Esto facilita el mantenimiento predictivo y la mejora del diseño sin interrumpir la producción.
