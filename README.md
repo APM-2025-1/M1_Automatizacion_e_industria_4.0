@@ -62,10 +62,12 @@ Modem satelital y Firewall VPN, que permiten conectividad remota segura para mon
 
 Los protocolos utilizados incluyen Modbus RTU, Ethernet/IP y protocolos propietarios de B&R Automation.
 
-# 2. Tecnologías de Industria 4.0 y relación con la transformación digital
+# 3. Tecnologías de Industria 4.0 y relación con la transformación digital
 El diseño propuesto integra diversas tecnologías de la Industria 4.0 que fortalecen la capacidad de digitalización y mejora continua del proceso:
 
 Gemelo Digital (Modelo Ciberfísico): La planta ha sido modelada virtualmente en un entorno CAD, lo que permite simular, validar y ajustar el comportamiento del sistema antes de su implementación física. Esto facilita el mantenimiento predictivo y la mejora del diseño sin interrumpir la producción.
+
+<img width="994" height="500" alt="PlantaProyecto" src="https://github.com/user-attachments/assets/55170fd6-91ab-4f99-8161-de3631bafffa" />
 
 IIoT (Internet Industrial de las Cosas): Se incorporan elementos conectados como sensores y actuadores con capacidad de transmisión de datos en tiempo real hacia plataformas de análisis o supervisión. Esto posibilita el diagnóstico remoto, el ajuste de parámetros y la recopilación de datos para análisis predictivos.
 
