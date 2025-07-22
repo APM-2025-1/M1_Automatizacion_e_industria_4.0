@@ -49,11 +49,11 @@ La arquitectura de control del sistema ha sido diseñada siguiendo un enfoque je
 
 El nivel de control está conformado por un sistema modular basado en la plataforma B&R Automation X90. El corazón del sistema es el controlador principal X90CP174.48-00, responsable de ejecutar la lógica de control, supervisar el proceso y gestionar las comunicaciones con los dispositivos de campo y los sistemas superiores. Este controlador se complementa con módulos de expansión como las tarjetas X90DI110.10-00 para entradas digitales, X90RO440.05-00 para salidas digitales, X90AT910.08-00 para entradas analógicas en corriente y X90AO410.04-00 para salidas analógicas. Esta configuración permite una implementación flexible y escalable, adaptable a los requerimientos específicos de cada etapa del proceso.
 
-<img width="887" height="550" alt="Screenshot 2025-07-21 221636" src="https://github.com/user-attachments/assets/6b95202b-0c82-4b0f-8b4c-a325b0823add" />
+<img width="987" height="563" alt="image" src="https://github.com/user-attachments/assets/932943bb-6582-4860-935b-483970fb0a02" />
 
 En el nivel de supervisión se encuentra una HMI táctil de 5.7 pulgadas, modelo 4PPC70.0573-20W, que brinda al operador una interfaz gráfica para visualizar variables del proceso, introducir comandos manuales y recibir mensajes de alerta. Este nivel también incluye capacidades de acceso remoto mediante una red protegida por firewall y conectividad satelital, lo que garantiza un monitoreo seguro desde ubicaciones remotas y facilita tareas de diagnóstico y mantenimiento sin necesidad de presencia física en la planta.
 
-<img width="1020" height="481" alt="Screenshot 2025-07-21 221603" src="https://github.com/user-attachments/assets/f0fdf06e-195d-4f6d-8dd4-076246d7a809" />
+<img width="1221" height="548" alt="image" src="https://github.com/user-attachments/assets/f792224e-d98d-4caf-b7fb-a66c42ae2abc" />
 
 En cuanto a las comunicaciones industriales, el sistema utiliza una red mixta compuesta por tecnología Ethernet industrial y RS-485. La conexión entre los módulos del PLC, la HMI y los dispositivos de red se realiza mediante switches industriales NS-206AF, los cuales ofrecen cuatro puertos RJ-45 y dos puertos de fibra óptica multimodo tipo SC. Para la comunicación robusta y de largo alcance con sensores distribuidos o módulos remotos se emplea el protocolo RS-485, conectado directamente a los módulos del PLC. Además, el acceso a servicios en la nube y a plataformas de teleasistencia se realiza a través de un módem satelital de banda Ku, en conjunto con un firewall que garantiza la ciberseguridad mediante túneles VPN.
 
