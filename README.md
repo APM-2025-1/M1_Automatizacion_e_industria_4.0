@@ -50,7 +50,11 @@ Nivel de Campo: incluye sensores, actuadores y bornas distribuidas para señales
 
 Nivel de Control: constituido por controladores PLC X90 de B&R (modelo X90CP174.48-00 y módulos de expansión), encargados del procesamiento lógico y control de procesos.
 
+<img width="887" height="550" alt="Screenshot 2025-07-21 221636" src="https://github.com/user-attachments/assets/6b95202b-0c82-4b0f-8b4c-a325b0823add" />
+
 Nivel de Supervisión: conformado por una HMI táctil de 5.7” (modelo 4PPC70.0573-20W) para operación local, e interfaces de red para acceso remoto.
+
+<img width="1020" height="481" alt="Screenshot 2025-07-21 221603" src="https://github.com/user-attachments/assets/f0fdf06e-195d-4f6d-8dd4-076246d7a809" />
 
 Las comunicaciones en el sistema están soportadas por:
 
