@@ -41,6 +41,8 @@
 
 El sistema de automatización implementado en la planta cuenta con una instrumentación precisa que permite la supervisión y control de cada etapa del proceso. En los gabinetes eléctricos se han identificado sensores como sensores fotoeléctricos difusos (SICK WTB4-3P1361), utilizados para la detección de piezas en las bandas transportadoras, y sensores de temperatura y humedad para el monitoreo ambiental. Como actuadores se incluyen contactores, resistencias calefactoras, lámparas piloto, balizas acústicas y motores eléctricos controlados mediante relés y salidas digitales del PLC.
 
+<img width="5405" height="5934" alt="Diagrama en blanco" src="https://github.com/user-attachments/assets/c4922647-4400-454a-8a6d-b1f6bd2138f9" />
+
 Cada sección de la planta tiene su propio conjunto de dispositivos. Por ejemplo, los sensores fotoeléctricos están distribuidos a lo largo de la línea para garantizar la detección precisa de productos. Las señales de entrada provenientes de estos sensores son canalizadas a tarjetas de entradas digitales, mientras que las señales de salida hacia actuadores como balizas y lámparas son gestionadas por tarjetas de salidas digitales.
 
 # 2. Arquitectura de control y comunicaciones utilizadas
